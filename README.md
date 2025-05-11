@@ -3,7 +3,7 @@
 An example project for [Using Model Context Protocol in iOS apps](https://www.artemnovichkov.com/blog/using-model-context-protocol-in-ios-apps) article.
 
 <p align="center"/>
-  <img src=".github/screenshot.png" width="80%"/>
+  <img src=".github/screenshot.png"/>
 </p>
 
 ## Author
