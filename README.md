@@ -1,4 +1,4 @@
-# Creating MCP Servers in Swift
+# Using Model Context Protocol in iOS apps
 
 An example project for [Using Model Context Protocol in iOS apps](https://www.artemnovichkov.com/blog/using-model-context-protocol-in-ios-apps) article.
 
