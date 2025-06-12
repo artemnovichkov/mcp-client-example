@@ -1,8 +1,6 @@
-# Using Model Context Protocol in iOS apps
+# Cook up 3D charts in SwiftUI
 
-An example project for [Using Model Context Protocol in iOS apps](https://www.artemnovichkov.com/blog/using-model-context-protocol-in-ios-apps) article.
-
-To run the app, get your API key in [Anthropic Dashboard](https://console.anthropic.com/settings/keys) and update it in [ContextViewModel](https://github.com/artemnovichkov/mcp-client-example/blob/bc3232f41b0739749265d08736319e9fa9d35da6/MCPClientExample/ContentViewModel.swift#L20).
+An example project for [Cook up 3D charts in SwiftUI](https://www.artemnovichkov.com/blog/cook-up-3d-charts-in-swiftui) article.
 
 <p align="center"/>
   <img src=".github/screenshot.png"/>
