@@ -1,6 +1,6 @@
-# Cook up 3D charts in SwiftUI
+# Creating MCP Servers in Swift
 
-An example project for [Cook up 3D charts in SwiftUI](https://www.artemnovichkov.com/blog/cook-up-3d-charts-in-swiftui) article.
+An example project for [Using Model Context Protocol in iOS apps](https://www.artemnovichkov.com/blog/using-model-context-protocol-in-ios-apps) article.
 
 <p align="center"/>
   <img src=".github/screenshot.png"/>
