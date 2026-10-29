@@ -40,7 +40,7 @@ final class ContentViewModel {
                     switch content {
                     case .toolUse(let id, let name, _):
                         try await useTool(withID: id, name: name)
-                    case .text, .toolResult:
+                    case .text, .thinking, .redactedThinking, .toolResult:
                         continue
                     }
                 }
@@ -84,10 +84,12 @@ struct ChatMessage: Identifiable {
 
     var content: String {
         message.content
-            .map { content in
+            .compactMap { content -> String? in
                 switch content {
                 case .text(let text):
                     text
+                case .thinking, .redactedThinking:
+                    nil
                 case .toolUse(_, let name, _):
                     "Called MCP Tool: \(name)"
                 case .toolResult(_, let content):
