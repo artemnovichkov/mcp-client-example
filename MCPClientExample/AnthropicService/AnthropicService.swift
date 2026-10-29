@@ -19,8 +19,9 @@ final class AnthropicService {
         request.httpMethod = "POST"
         request.setValue(apiKey, forHTTPHeaderField: "x-api-key")
         request.setValue("2023-06-01", forHTTPHeaderField: "anthropic-version")
+        request.setValue("application/json", forHTTPHeaderField: "content-type")
         
-        let body = Request(model: "claude-3-opus-20240229", messages: messages, max_tokens: 1024, tools: tools)
+        let body = Request(model: "claude-opus-5-5", messages: messages, max_tokens: 4096, tools: tools)
         let encoder = JSONEncoder()
         request.httpBody = try encoder.encode(body)
         
